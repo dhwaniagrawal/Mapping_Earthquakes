@@ -11,6 +11,7 @@ let line = [
 // Create a polyline using the line coordinates and make the line red.
 L.polyline(line, {
   color: 'blue',
+  type: 'LineString',
   strokeweight: 4,
   strokeopacity: 0.5
 }).addTo(map);
